@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    margin: 0;
+    padding:0;
+    height: 56px;
+    background-color: #212529;
+}
+
+.navbar-div{
+    padding-top: 8px;
+    margin-right: 122.8px;
+    margin-left: 122.8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    color: #f3f3f3;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 40px;
+}
+
+.nav-links div{
+    margin: 6px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #8b7e79;
+    transition: .5s;
+}
+
+a:hover{
+    color: white;
+}
+
+
+.main-content{
+    height: 340px;
+    background-color: #1c77fd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-content .main-text{
+    /* padding-left: 500px;  */
+    padding-bottom: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 912px;
+    padding-top: 1.5rem;
+}
+
+.main-text .text1{
+    /* font-size: 45px; */
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-text .text1 h1{
+    height: 47px;
+}
+
+.main-text .text2{
+    margin-top: 12px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 16px;
+    /* width: 750px; */
+}
+
+.main-text .button{
+    text-align: center;
+    margin-top: 14px;
+}
+
+.button button{
+    border-radius: 0.5rem;
+    height: 48px;
+    width: 160px;
+    padding: 8px 16px;
+    font-size: 19px;
+    background-color: #f8f9fa;
+    border: solid 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.about-part {
+    height: 576px;
+    padding: 144px 0px;
+    margin: 0px 240px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-part .content{
+    width: 936px;
+    margin: 0px 100px;
+}
+
+.about-part h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.about-part p{
+    height: 90px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    width: 900px;
+}
+
+
+.about-part ul li{
+    list-style:disc;
+    height: 24px;
+}
+
+.about-part ul{
+    padding-left: 36px;
+}
+
+.services-part{
+    background-color: rgba(248, 249, 250, 1);
+    height: 469px;
+    padding: 9rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 144px 0;
+}
+.service-content{
+    margin: 0 338px;
+}
+
+.services-part p{
+    /* padding: 144px 0px; */
+    width: 850px;
+    height: 120px;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.services-part h1{
+    font-weight: 500;
+    font-size: 2.3rem;
+    margin-bottom: 12px;
+}
+
+
+.contact-part{
+    background-color: white;
+    height: 469px;
+    padding: 9rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 144px 0;
+}
+.contact-content{
+    margin: 0 338px;
+}
+
+.contact-part p{
+    /* padding: 144px 0px; */
+    width: 850px;
+    height: 120px;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.contact-part h1{
+    font-weight: 500;
+    font-size: 2.3rem;
+    margin-bottom: 12px;
+}
+
+footer{
+    height: 120px;
+    text-align: center;
+    background-color: #212529;
+    color: white;
+}
+
+.footer-class{
+    padding: 48px 0px;
+}

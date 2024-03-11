@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    height: 65.6px;
+    background-color: white;
+    padding: 8px 0px;
+    margin: 0px 47.6px;
+}
+
+.container{
+    margin: 0px 47.6px;
+    padding: 0px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 49.6px;
+}
+
+.container a{
+    padding: 5px 0px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.container button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #0d6efd;
+    font-size: 16px;
+    height: 49.6px;
+    width: 86.85px;
+    padding: 8px 12px;
+    color: white;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 6px;
+    border-color: #0d6efd;
+}
+
+.main-container{
+    height: 611px;
+    background-image: url(../lake_image.jpg);
+    background-size: cover;
+}
+
+.main-container #emailAddress{
+    height: 64px;
+    width: 808px;
+    padding: 16px 20px;
+    font-weight: 400;
+}
+
+.input-submit{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 650px;
+}
+
+.main-container .text1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #fff;
+    /* display: flex;
+    justify-content: center; */
+    margin-bottom: 48px;
+    width: 700px;
+    margin-left: 420px;
+    padding: 180px 0px 170px 0px;
+    text-align: center;
+}
+
+
+
+#emailAddress{
+    border-radius: 12px;
+    border-width: 0px;
+    width: 808.5px;
+}
+
+
+#submitButton{
+    opacity: 0.7;
+    margin-left: 16px;
+    width: 127.5px;
+    height: 64px;
+    padding: 0px 12px;
+    font-weight: 400;
+    max-width: 100%;
+    background-color: #236bd2;
+    color: #fff;
+    border-width: 0px;
+    border-radius: 10px;
+    font-size: 1rem;
+    user-select: none;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 482.5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.boxes{
+    height: 258px;
+}
+
+.icon{
+    font-size: 4.5rem;
+    padding-left: 100px;
+    color: #0d6efd;
+    align-content: center;
+    height: 112px;
+    width: 296px;
+}
+
+.icon1{
+    padding-left: 118px;
+}
+
+.icon2{
+    padding-left: 114px;
+}
+
+.box1{
+    margin-left: 60px;
+}
+
+.box3{
+    margin-right: 60px;
+}
+
+
+.boxheaders{
+    width: 296px;
+    margin-bottom: 0.5rem;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+.boxdesc{
+    width: 296px;
+    text-align: center;
+    height: 90px;
+    opacity: 0.9;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.showcase .showcase-text {
+    padding: 7rem;
+}
+
+.showcase h2{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2.3rem;
+}
+
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+}
+
+.row-desc {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.order-2 {
+    order: 2 !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container-3 h2{
+    line-height: 1.2;
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+.cases {
+    background-color: #f8f9fa;
+    height: 621px;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.cases img {
+    height: 192px;
+    width: 192px;
+}
+
+.cases h5{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.25rem;
+}
+
+.container-3 p{
+    text-align: center;
+    width: 500px;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+
+
+.container-2{
+    height: 450px;
+    background-image: url(../lake_image.jpg);
+    background-size: cover;
+}   
+
+.container-2 #emailAddress2{
+    height: 64px;
+    width: 808px;
+    padding: 12px 20px;
+    font-weight: 400;
+    border-radius: 12px;
+    border-width: 0px;
+}
+
+.input-submit-2{
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 650px;
+    padding-bottom: 800px;
+}
+
+.container-2 .text2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 28px;
+    width: 700px;
+    margin-left: 420px;
+    padding: 160px 0px 170px 0px;
+    text-align: center;
+}
+
+
+#submitButton2{
+    opacity: 0.7;
+    margin-left: 16px;
+    width: 127.5px;
+    height: 64px;
+    padding: 0px 12px;
+    font-weight: 400;
+    max-width: 100%;
+    background-color: #236bd2;
+    color: #fff;
+    border-width: 0px;
+    border-radius: 10px;
+    font-size: 1rem;
+    user-select: none;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+
+.footer-1{
+    width: 50%;
+    margin-left: 100px;
+}
+
+.footer-1 .links-1 ul{
+    display: flex;
+    align-items: center;
+}
+
+.footer-1 .links-1 ul>li{
+    margin: 12px;
+}
+
+.footer-1 p{
+    margin-left: 14px;
+}
+
+.footer-2 ul{
+    display: flex;
+    align-items: center;
+}
+
+.footer-2 ul li:last-child{
+    margin-right: 100px;
+}
+
+.footer-2 ul li{
+    margin-left: 14px;
+    margin-top: 22px;
+    font-size: 2.3rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 181px;
+}
